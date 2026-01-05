@@ -1,0 +1,36 @@
+
+html {
+    scroll-behavior:smooth;
+}
+
+body {
+  font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+.presentacion{
+
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family:  monospace;
+    
+}
+
+
+.presentacion2{
+
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family:  monospace;
+    
+}
+
+
+h2{
+    display: flex;
+    font-size: 2rem;
+    font-family: monospace;
+
+}
