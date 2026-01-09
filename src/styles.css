@@ -17,7 +17,6 @@ body {
     
 }
 
-
 .presentacion2{
 
     display: flex;
@@ -34,3 +33,33 @@ h2{
     font-family: monospace;
 
 }
+
+
+.presentacion {
+    @media (width < 800px) {
+    font-size: 2rem;
+    }
+}
+
+
+.presentacion2 {
+    @media (width < 800px) {
+    font-size: 1.5rem;
+    }
+}
+
+
+.presentacion {
+    @media (width < 575px) {
+    font-size: 1rem;
+    }
+}
+
+
+.presentacion2 {
+    @media (width < 575px) {
+    font-size: 0.6rem;
+    }
+}
+
+

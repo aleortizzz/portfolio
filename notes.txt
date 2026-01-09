@@ -1,2 +1,8 @@
 // WATCH //
 npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+
+
+git pull
+npm install   # solo si es PC nueva
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
