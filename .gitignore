@@ -1,0 +1,16 @@
+# Dependencias
+node_modules/
+
+# Archivos de desarrollo
+src/
+input.css
+
+# Logs
+*.log
+
+# Config local
+.env
+
+# Sistema
+.DS_Store
+Thumbs.db
