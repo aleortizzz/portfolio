@@ -51,14 +51,14 @@ h2{
 
 .presentacion {
     @media (width < 575px) {
-    font-size: 1.4rem;
+    font-size: 1rem;
     }
 }
 
 
 .presentacion2 {
     @media (width < 575px) {
-    font-size: 1rem;
+    font-size: 0.9rem;
     }
 }
 
