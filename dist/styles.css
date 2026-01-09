@@ -49,11 +49,11 @@ h2{
 }
 
 
-.presentacion {
-    @media (width < 575px) {
+@media (max-width: 575px) {
+  .presentacion {
     font-size: 0.5rem;
     color: red;
-    }
+  }
 }
 
 
