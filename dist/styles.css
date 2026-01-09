@@ -35,32 +35,33 @@ h2{
 }
 
 
-.presentacion {
-    @media (width < 800px) {
-    font-size: 2rem;
-    }
-}
 
-
-.presentacion2 {
-    @media (width < 800px) {
-    font-size: 1.5rem;
-    }
-}
-
-
-@media (max-width: 575px) {
+@media (max-width: 800px) {
   .presentacion {
-    font-size: 0.5rem;
-    color: red;
+    font-size: 2rem;
   }
 }
 
 
-.presentacion2 {
-    @media (width < 575px) {
+@media (max-width: 800px) {
+  .presentacion2 {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+@media (max-width: 575px) {
+  .presentacion {
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 575px) {
+  .presentacion2 {
     font-size: 0.9rem;
-    }
+  }
 }
 
 
